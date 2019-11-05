@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import {useSelector} from 'react-redux';
+import Dashboard from './components/dashboard';
+import Addcategorypopup from './components/addcategorypopup';
+import Addcoursepopup from './components/addcoursepopup';
+import InstructorAddpopup from './components/addinstructorpopup';
+import {BrowserRouter ,Route} from 'react-router-dom';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  let display=useSelector(state=>state);
+  console.log(display);
+// console.log(display.display1+":::"+display.display2+"::::"+display.display3);
+  return (  
+  
+      <div>
+       <Dashboard/>
+      <div style={{display:display.display1}}>
+       <Addcategorypopup/>
+       </div>
+       <div style={{display:display.display2}}>
+       <Addcoursepopup/>
+       </div>
+       <div style={{display:display.display3}}>
+       <InstructorAddpopup/>
+       </div> 
+      </div>
+     
+    );
+}
 export default App;

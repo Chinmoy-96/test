@@ -1,0 +1,81 @@
+.instructor_popup{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    padding-top: 3%;
+    position: absolute;
+    top: 0;
+}
+.instructor_popup_box{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 34vw;
+    height: 80vh;
+    background-color: whitesmoke;
+    bottom: 50%;
+    margin: auto;
+    padding: 0 2vw;
+}
+
+.add_heading{
+    text-align:center;
+    color: black;
+    height: 2vh;
+    padding-bottom: 1vh;
+    line-height: 5vh;
+}
+.instructor_popup_box .field .image_round{
+    width:30%;
+    padding: 5%;
+}
+.upload-inline {
+    display: -webkit-inline-box;
+    }
+    
+    .input-upload {
+    height: 10vh;
+    width: 6vw;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    }
+    
+    .upload-image {
+    height: 2vh;
+    width: 1.5vw;
+    padding: 35%;
+    cursor: pointer;
+    }
+    
+    #file-input {
+    display: none;
+    }
+    
+    .note {
+    font-size: .8vw;
+    color: rgba(10, 10, 10, 0.432);
+    margin: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: .7vw;
+    }
+    .required_asterick{
+        color: red;
+    }
+    .close_icon{
+        float: right;
+        padding-top: 1vh;
+    }
+
+    .instructor_popup_box .ui.form .field label
+    {
+        margin: 1vh 0;
+    }
+    .instructor_popup_box hr
+    {
+opacity: .5;;
+
+    }
+
+
+    

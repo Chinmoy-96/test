@@ -1,0 +1,318 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.flex-container .header {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  left:29.5%;
+  top: 3%;
+  line-height: 5vh;
+ 
+}
+.under-line{
+ margin: 0;
+   background: gray;
+   opacity: .5;
+}
+.color {
+  color: red;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background:whitesmoke;
+  width: 40vw;
+  height: 93vh;
+  margin: auto;
+justify-content: center;
+}
+
+.course {
+  color: dark black;
+  font-size: 2.5vh;
+  padding: 0;
+  margin: 0 0 2vh 0;
+}
+
+.get {
+  font-size: 2.5vh;
+  margin: 0 0 2vh 0;
+  color: gray;
+}
+
+.create_course_popup {
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  top: 0;
+  background: black;
+  opacity: .7;
+  padding-top: 3vh;
+  position: absolute;
+}
+
+.flex-container1 {
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:4vh;  
+  /* line-height: 10vh; */
+} 
+
+.flex-container2 {
+  display: flex;
+}
+
+.line1 {
+  width: 15vw;
+  height: 1.5vh;
+  border-radius: 10px;
+  background-color: #00cc00;
+  margin-left: 5vw;
+}
+
+.line2 {
+  width: 15vw;
+  height: 1.5vh;
+  border-radius: 10px;
+  background-color: gray;
+margin-left: 1vw;
+}
+
+.line3 {
+  width: 15vw;
+  height: 1.5vh;
+  border-radius: 10px;
+  background-color: #00cc00;
+  margin-left: 1vw;
+}
+
+.field {
+  width: 30vw;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.addnewcourse {
+  width: 5vw;
+  height: 12vh;
+  background-color: white;
+}
+
+.inline {
+  display: -webkit-inline-box;
+}
+
+#file-input {
+  display: none;
+}
+
+.fa.fa-file {
+  margin-top: 4.3vh;
+  margin-left: 2vw;
+}
+
+.add-image {
+  margin-top: 1vh;
+}
+
+.note-text {
+  font-size: .7vw;
+  padding-left: 1vw;
+  padding-top: 5vh;
+}
+
+.buttons {
+  margin-top: 15vh;
+  padding: 1vh 1vw;
+}
+
+.status {
+  margin-top: 3vh;
+}
+
+.close {
+  float: right;
+  padding: 1vh;
+  position: absolute;
+  bottom: 14%;
+  left: 95%;
+}
+
+
+
+/* -----------------Instructormail---------- */
+
+
+.Instructor-Mail-popup
+{
+  position: fixed;
+  width: 82vw;
+  top: 15%;
+left: 15%;
+
+}
+
+
+.Instructor-Mail-popup  .Save-Button {
+  float: right;
+  width:7vw;
+}
+
+.Instructor-Mail-popup h2 {
+    font-size: 1.3em;
+    color: rgb(94, 91, 91);
+ 
+}
+
+.Email-Template-Bar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35vw;
+  margin-left: 25%;
+  /* border: 1px solid black; */
+  /* flex-direction: row; */
+}
+
+.Instructor-Mail-popup  .ui.positive.button {
+  width: 9vw;
+  height: 6vh;
+}
+
+.Email-Template-Bar .line1 {
+  width: 13vw;
+  height: 2.5vh;
+  border-radius: 10px;
+  background-color: #00cc00;
+}
+
+.Email-Template-Bar  .line2 {
+  width: 13vw;
+  height: 2.5vh;
+  border-radius: 10px;
+  background-color: gray;
+  /* margin-left: 2vw; */
+}
+.Email-Template-Bar  .line3{
+  width: 13vw;
+  height: 2.5vh;
+  border-radius: 10px;
+  background-color: #00cc00;
+  /* margin-left: 2vw; */
+}
+.Instructor-Mail-popup  .Main-Box {
+  margin-top: 2vh;
+  height: 88vh;
+  border-radius: 7px;
+  background-color: rgba(224, 224, 224, 0.849);
+  box-shadow: rgb(150, 146, 146) 3px 3px;
+  padding: 0  1vw;
+}
+
+.Preview {
+  height: 7vh;
+  background-color: rgba(255, 255, 255, 0.849);
+  padding: 1%;
+}
+
+.textarea {
+  height: 40vh;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+.Instructor-Mail-popup  .Email-Template {
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: 3vh;
+  font-size: 1.8vh;
+}
+
+.Instructor-Email-Template {
+  color: dark black;
+}
+
+.Participant-Email-Template {
+  /* margin-left: 6vw; */
+  /* line-height:5vh; */
+  color: gray;
+}
+.Participant-Email-Template-Black{
+  color: dark black;
+}
+.star {
+  color: red;
+}
+
+.Instructor-Mail-popup  .form {
+  padding: 2vh 2vh 4vh 2vh;
+}
+.Instructor-Mail-popup  .ui .button {
+  color: white;
+  background-color: rgb(44, 42, 42);
+  position: absolute;
+  left: 91%;
+  height: 4.2vh;
+  top: 8.5%;
+  width: 6vw;
+  border: solid rgb(44, 42, 42);
+  border-radius: 0.7vh;
+}
+
+.Instructor-Mail-popup .ui.form select {
+  display: block;
+  height: auto;
+  width: 12%;
+  background: #fff;
+  border: 1px solid rgba(34, 36, 38, .15);
+  border-radius: .2rem;
+}
+
+.Instructor-Mail-popup  .textbox1 {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.Preview {
+  background-color: whitesmoke;
+}
+
+.Preview dropdown {
+  width: 6vw;
+  font-size: 1vh;
+}
+.labels
+{
+  display: flex;
+  /* border: 1px solid black; */
+
+}
+.labels label
+{
+  width: 50%;
+}
+.labels label:nth-child(2)
+{
+text-indent: 1vw;
+}
+.Instructor-Mail-popup  .ui.grey.button{
+  width:8vw;
+  height: 5vh;
+text-align: center;
+margin-left: 5vh;
+}
